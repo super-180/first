@@ -21,4 +21,9 @@ my study
        复制多个Cube，在Plane上组成一堵墙，效果如图所示  
        ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(8).png)  
    2.3 子弹的生成  
-       在3D Object中选择Sphere，改变大小，并加入Rigidbody组件，设置成预设体，如图所示
+       在3D Object中选择Sphere，改变大小，并加入Rigidbody组件，设置成预设体，如图所示  
+       ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(11).png)  
+3. 控制子弹  
+   3.1 控制子弹的生成和速度  
+       创建一个Shoot脚本，设置一个GameObject对象bullet来接受预设的子弹。如果点击鼠标左键，就生成一个子弹，并赋予初速度。将Shoot脚本当作组件插入到Camera中，如图所示  
+       
