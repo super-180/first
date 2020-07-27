@@ -29,4 +29,7 @@ my study
        ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(14).png)  
        ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(15)_LI.jpg)  
    3.2 控制Camera的移动  
-       创建一个Move脚本，来控制Camera的上下左右移动，如图所示
+       创建一个Move脚本，来控制Camera的上下左右移动，如图所示  
+       ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(17).png)  
+       ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(18)_LI.jpg)  
+       
