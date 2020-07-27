@@ -25,5 +25,8 @@ my study
        ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(11).png)  
 3. 控制子弹  
    3.1 控制子弹的生成和速度  
-       创建一个Shoot脚本，设置一个GameObject对象bullet来接受预设的子弹。如果点击鼠标左键，就生成一个子弹，并赋予初速度。将Shoot脚本当作组件插入到Camera中，如图所示  
-       
+       创建一个Shoot脚本，设置一个GameObject对象bullet来接受预设的子弹。如果点击鼠标左键，就在Camera的位置生成一个子弹，并赋予初速度。将Shoot脚本当作组件插入到Camera中，如图所示  
+       ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(14).png)  
+       ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(15)_LI.jpg)  
+   3.2 控制Camera的移动  
+       创建一个Move脚本，来控制Camera的上下左右移动，如图所示
