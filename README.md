@@ -32,4 +32,5 @@ my study
        创建一个Move脚本，来控制Camera的上下左右移动，如图所示  
        ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(17).png)  
        ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(18)_LI.jpg)  
-       
+4. 打砖块效果演示  
+       ![image](https://github.com/super-180/first/blob/master/Images/打砖块演示.gif)
