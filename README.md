@@ -42,14 +42,19 @@ my study
 通过学习打砖块项目，简单学习了Unity的基本操作  
 1. Unity视图  
    1.1 Scene视图  
+       ![image](https://github.com/super-180/first/blob/master/Images/Scene.png)  
        设计游戏的场景，所有游戏物体都在该场景中。  
    1.2 Game视图  
+       ![image](https://github.com/super-180/first/blob/master/Images/Game.png)  
        显示游戏的运行画面，点击播放进入播放模式。  
    1.3 Hierarchy视图  
+       ![image](https://github.com/super-180/first/blob/master/Images/Hierarchy.png)  
        层次视图包含了每一个当前场景的所有游戏对象，可以在该视图中选择对象或生成对象。  
    1.4 Project视图  
+       ![image](https://github.com/super-180/first/blob/master/Images/Project.png)  
        每个Unity的项目包含一个资源文件夹，此文件夹的内容呈现在项目视图。  
    1.5 Inspector视图  
+       ![image](https://github.com/super-180/first/blob/master/Images/Inspector.png)  
        显示当前选定的游戏对象的所有附加组件及其属性的相关详细信息。  
    1.6 工具栏  
        ![image](https://github.com/super-180/first/blob/master/Images/工具栏.png)  
