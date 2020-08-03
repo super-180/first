@@ -34,3 +34,4 @@ my study
        ![image](https://github.com/super-180/first/blob/master/Images/2020-07-27%20(18)_LI.jpg)  
 4. 打砖块效果演示  
        ![image](https://github.com/super-180/first/blob/master/Images/打砖块演示.gif)
+打砖块项目目录:Projects/Make Bricks  
