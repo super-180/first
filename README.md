@@ -65,3 +65,14 @@ my study
        矩形工具（快捷键T）：首先选择物体，物体会出现矩形轴，拖动可缩放物体  
        移动，旋转或缩放工具（快捷键Y）：首先选择物体，物体会出现方向轴、旋转轴和缩放方向轴，可以实现三种操作  
        编辑器工具：编辑物体的组件
+2. 组件  
+   在场景中生成了一个游戏对象，为了该游戏对象能具备某种功能，可以添加组件（Add Component）来实现某种功能。  
+   2.1 Transform  
+       Transform组件中有三个信息：Position、Rotation和Scale。  
+       Position：在世界坐标系中，transform的位置。  
+       Rotation：在世界坐标系中物体变换的旋转角度作为Quaternion储存。  
+       Scale：物体的缩放比例。  
+   2.2 Rigidbody  
+       刚体组件，赋予游戏对象物体特性，如重力等。分为2D和3D。  
+   2.3 Collider  
+       碰撞体组件，需要碰撞检测的物体需要添加该组件。该组件有不同分类，如Box Collider、Circle Collider等。
