@@ -87,5 +87,6 @@ my study
 1. 导入素材  
    在Unity Asset Store中下载Sunny Land素材包，并导入。  
    ![image](https://github.com/super-180/first/blob/master/Images/导入素材.png)  
-2. 编辑素材并创建地形  
+2. 编辑素材并创建场景  
+   首先创建一个Tilemap，之后在Sunnyland->artwork->Environment中找到tileset素材，点击tileset中的Sprite Editor,将素材剪切好。剪切好素材后，将素材拖入到Tile Palette中，即可在Scene中搭建场景。之后可添加一些素材丰富场景。  
    
