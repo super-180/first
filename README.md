@@ -89,4 +89,8 @@ my study
    ![image](https://github.com/super-180/first/blob/master/Images/导入素材.png)  
 2. 编辑素材并创建场景  
    首先创建一个Tilemap，之后在Sunnyland->artwork->Environment中找到tileset素材，点击tileset中的Sprite Editor,将素材剪切好。剪切好素材后，将素材拖入到Tile Palette中，即可在Scene中搭建场景。之后可添加一些素材丰富场景。  
+   ![image](https://github.com/super-180/first/blob/master/Images/Sprite%20Editor.png)  
+   ![image](https://github.com/super-180/first/blob/master/Images/Tile%20Palette.png)  
+   建好的场景  
+   ![image](https://github.com/super-180/first/blob/master/Images/场景.png)  
    
