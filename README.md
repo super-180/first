@@ -83,3 +83,7 @@ my study
    3.2 Update()  
        Update()方法会在脚本执行时一直运行。代码每秒执行N次，也就是说帧数为N帧，而这个Update中的帧数大小取决于设备性能和游戏中物体的数量，因此同一个游戏在不同电脑上运行时的流畅度不同。  
       
+## Unity教程 Sunny Land  
+1. 导入素材  
+   在Unity Asset Store中下载Sunny Land素材包，并导入。  
+   
