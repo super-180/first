@@ -86,4 +86,6 @@ my study
 ## Unity教程 Sunny Land  
 1. 导入素材  
    在Unity Asset Store中下载Sunny Land素材包，并导入。  
+   ![image](https://github.com/super-180/first/blob/master/Images/导入素材.png)  
+2. 编辑素材并创建地形  
    
