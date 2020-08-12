@@ -95,7 +95,9 @@ my study
    ![image](https://github.com/super-180/first/blob/master/Images/场景.png)  
    为了使角色与场景有碰撞，需要加入Tilemap Collider 2D  
 3. 创建角色  
-   创建一个Sprite，将角色贴图放入Sprite Renderer中的Sprite，即可创建角色。  
+   创建一个Sprite，将角色贴图放入Sprite Renderer中的Sprite，然后加入Rigidbody 2D、Box Collider 2D和Circle Collider 2D。  
    ![image](https://github.com/super-180/first/blob/master/Images/角色.png)  
 4. 角色移动  
+   为了使角色能够移动，需要创建一个C#脚本：PlayerController，在其中编写移动方法Movement来实现左右移动。先定义一个Rigidbody2D类型的变量，用来获得角色的Rigidbody，之后将Movement方法放入Update方法中。  
+   
    
