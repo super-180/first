@@ -93,4 +93,7 @@ my study
    ![image](https://github.com/super-180/first/blob/master/Images/Tile%20Palette.png)  
    建好的场景  
    ![image](https://github.com/super-180/first/blob/master/Images/场景.png)  
+   为了使角色与场景有碰撞，需要加入Tilemap Collider 2D  
+3. 创建角色  
+   创建一个Sprite，将角色贴图放入Sprite Renderer中的Sprite，即可创建角色。  
    
