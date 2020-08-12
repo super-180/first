@@ -99,5 +99,6 @@ my study
    ![image](https://github.com/super-180/first/blob/master/Images/角色.png)  
 4. 角色移动  
    为了使角色能够移动，需要创建一个C#脚本：PlayerController，在其中编写移动方法Movement来实现左右移动。先定义一个Rigidbody2D类型的变量，用来获得角色的Rigidbody，之后将Movement方法放入Update方法中。  
-   
+   ![image](https://github.com/super-180/first/blob/master/Images/Movement.png)  
+5. 角色的动画效果  
    
