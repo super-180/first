@@ -103,5 +103,12 @@ my study
 5. 角色的动画效果  
    角色的移动方法写好，但是移动时是平移，需要添加动画效果。为角色添加Animator组件，并创建一个Animation Controller控制动画。依次为角色创建动作的动画效果。  
    站立：  
-   
+   ![image](https://github.com/super-180/first/blob/master/Images/idle.gif)  
+   跑：  
+   ![image](https://github.com/super-180/first/blob/master/Images/run.gif)  
+   跳跃分为两部分，跳起和落下  
+   跳起：  
+   ![image](https://github.com/super-180/first/blob/master/Images/jump.png)  
+   落下：  
+   ![image](https://github.com/super-180/first/blob/master/Images/fall.png)  
    
