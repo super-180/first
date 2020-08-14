@@ -111,4 +111,14 @@ my study
    ![image](https://github.com/super-180/first/blob/master/Images/jump.png)  
    落下：  
    ![image](https://github.com/super-180/first/blob/master/Images/fall.png)  
+   受伤：  
+   ![image](https://github.com/super-180/first/blob/master/Images/hurt.gif)  
+   蹲下：  
+   ![image](https://github.com/super-180/first/blob/master/Images/crouch.gif)  
+   动画制作完成，需要在Animator中建立关系  
+   ![image](https://github.com/super-180/first/blob/master/Images/动画关系图.png)  
+   ![image](https://github.com/super-180/first/blob/master/Images/参数.png)  
+   之后在PlayController脚本中添加动画函数  
+   ![image](https://github.com/super-180/first/blob/master/Images/切换动画.png)  
+   ![image](https://github.com/super-180/first/blob/master/Images/crouch函数.png)  
    
