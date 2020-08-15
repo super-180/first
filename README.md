@@ -129,4 +129,8 @@ my study
 7. 物品收集  
    创建角色可收集的物品，先创建一个Sprite，将物品贴图放入Sprite Renderer中的Sprite。该物体需要与角色碰撞，添加Box Collider 2D，勾选其中的Is Trigger。物品还需要创建动画，有两种：原地和被角色收集。  
    原地：  
+   ![image](https://github.com/super-180/first/blob/master/Images/cherry.gif)  
+   被收集：  
+   ![image](https://github.com/super-180/first/blob/master/Images/isGot.gif)  
+   创建Cherry脚本，创建一个Death函数，当IsGot动画播放后，调用Death，销毁物品。在IsGot动画最后添加事件，调用Death。  
    
