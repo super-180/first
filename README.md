@@ -133,4 +133,6 @@ my study
    被收集：  
    ![image](https://github.com/super-180/first/blob/master/Images/isGot.gif)  
    创建Cherry脚本，创建一个Death函数，当IsGot动画播放后，调用Death，销毁物品。在IsGot动画最后添加事件，调用Death。  
+   ![image](https://github.com/super-180/first/blob/master/Images/cherry脚本.png)  
+   ![image](https://github.com/super-180/first/blob/master/Images/event.png)  
    
