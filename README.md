@@ -121,4 +121,7 @@ my study
    之后在PlayController脚本中添加动画函数  
    ![image](https://github.com/super-180/first/blob/master/Images/切换动画.png)  
    ![image](https://github.com/super-180/first/blob/master/Images/crouch函数.png)  
+   二段跳函数  
+   ![image](https://github.com/super-180/first/blob/master/Images/jump函数.png)  
+6. 镜头控制  
    
