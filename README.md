@@ -124,4 +124,9 @@ my study
    二段跳函数  
    ![image](https://github.com/super-180/first/blob/master/Images/jump函数.png)  
 6. 镜头控制  
+   为了使镜头跟随角色移动，为摄像机添加一个CameraController脚本  
+   ![image](https://github.com/super-180/first/blob/master/Images/镜头移动.png)  
+7. 物品收集  
+   创建角色可收集的物品，先创建一个Sprite，将物品贴图放入Sprite Renderer中的Sprite。该物体需要与角色碰撞，添加Box Collider 2D，勾选其中的Is Trigger。物品还需要创建动画，有两种：原地和被角色收集。  
+   原地：  
    
