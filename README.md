@@ -136,5 +136,8 @@ my study
    ![image](https://github.com/super-180/first/blob/master/Images/cherry脚本.png)  
    ![image](https://github.com/super-180/first/blob/master/Images/event.png)  
 8. 敌人  
-   在场景中会出现一些敌人，这些敌人会被角色消灭。敌人的创建和角色类似。  
+   在场景中会出现一些敌人，这些敌人会被角色消灭。敌人的创建和角色类似。敌人有两种：青蛙和老鹰。  
+   青蛙：  
+       原地：  
+       
    
