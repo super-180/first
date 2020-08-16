@@ -139,5 +139,17 @@ my study
    在场景中会出现一些敌人，这些敌人会被角色消灭。敌人的创建和角色类似。敌人有两种：青蛙和老鹰。  
    青蛙：  
        原地：  
-       
+       ![image](https://github.com/super-180/first/blob/master/Images/Frog_idle.gif)  
+       jump:  
+       ![image](https://github.com/super-180/first/blob/master/Images/Frog_jump%200.png)  
+       fall:  
+       ![image](https://github.com/super-180/first/blob/master/Images/Frog_fall%200.png)  
+   鹰：  
+       fly:  
+       ![image](https://github.com/super-180/first/blob/master/Images/Eagle_fly.gif)  
+   敌人的死亡动画：  
+   ![image](https://github.com/super-180/first/blob/master/Images/death.gif)  
+   动画创建完成后，再为敌人添加Rigidbody 2D和Circle Collider 2D。之后为敌人添加脚本。
+
+
    
