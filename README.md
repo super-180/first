@@ -135,4 +135,6 @@ my study
    创建Cherry脚本，创建一个Death函数，当IsGot动画播放后，调用Death，销毁物品。在IsGot动画最后添加事件，调用Death。  
    ![image](https://github.com/super-180/first/blob/master/Images/cherry脚本.png)  
    ![image](https://github.com/super-180/first/blob/master/Images/event.png)  
+8. 敌人  
+   在场景中会出现一些敌人，这些敌人会被角色消灭。敌人的创建和角色类似。  
    
