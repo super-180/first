@@ -150,6 +150,11 @@ my study
    敌人的死亡动画：  
    ![image](https://github.com/super-180/first/blob/master/Images/death.gif)  
    动画创建完成后，再为敌人添加Rigidbody 2D和Circle Collider 2D。之后为敌人添加脚本。
-
-
+   先创建一个类Enemy,里面存放敌人共同行为的函数  
+   ![image](https://github.com/super-180/first/blob/master/Images/enemy.png)  
+   老鹰：  
+   ![image](https://github.com/super-180/first/blob/master/Images/enemy_eagle.png)  
+   青蛙：  
+   ![image](https://github.com/super-180/first/blob/master/Images/enemy_frog.png)  
+   添加脚本后，可实现敌人的简单移动  
    
