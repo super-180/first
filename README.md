@@ -172,4 +172,5 @@ my study
         函数写好后，在按钮中的On Click()中添加物体并选择函数  
         ![image](https://github.com/super-180/first/blob/master/Images/play.png)  
         ![iamge](https://github.com/super-180/first/blob/master/Images/quit.png)  
-        
+   暂停菜单：  
+         
