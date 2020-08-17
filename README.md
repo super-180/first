@@ -160,4 +160,6 @@ my study
    添加脚本后，可实现敌人的简单移动  
    ![image](https://github.com/super-180/first/blob/master/Images/frog.gif)  
    ![image](https://github.com/super-180/first/blob/master/Images/eagle.gif)  
+9. 音效  
+   目前该游戏的音效有四种：游戏的BGM，角色跳跃的声音，角色受伤的声音和收集物品的声音。除了BGM一直播放，其他音效需要满足条件播放。通过创建一个空物体，统一管理这四种音效。  
    
