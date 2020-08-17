@@ -156,6 +156,7 @@ my study
    ![image](https://github.com/super-180/first/blob/master/Images/enemy_eagle.png)  
    青蛙：  
    ![image](https://github.com/super-180/first/blob/master/Images/enemy_frog.png)  
+   ![image](https://github.com/super-180/first/blob/master/Images/enemy_frog(2).png)  
    添加脚本后，可实现敌人的简单移动  
    ![image](https://github.com/super-180/first/blob/master/Images/frog.gif)  
    ![image](https://github.com/super-180/first/blob/master/Images/eagle.gif)  
