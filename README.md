@@ -168,4 +168,8 @@ my study
    ![image](https://github.com/super-180/first/blob/master/Images/cherrytext.png)  
    主菜单：  
         主菜单的创建需要新创建一个场景，将一张游戏截图作为背景，创建Panel，并且在Panel下创建一个Text（显示游戏名）和两个按钮（Play,Quit）。之后在Panel上添加脚本Menu，在其中创建开始游戏和暂停游戏的函数。  
+        ![image]( https://github.com/super-180/first/blob/master/Images/menu.png)  
+        函数写好后，在按钮中的On Click()中添加物体并选择函数  
+        ![image](https://github.com/super-180/first/blob/master/Images/play.png)  
+        ![iamge](https://github.com/super-180/first/blob/master/Images/quit.png)  
         
