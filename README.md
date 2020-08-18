@@ -182,4 +182,7 @@ my study
          ![image](https://github.com/super-180/first/blob/master/Images/setVolume.png)  
 11. 场景切换  
     在游戏中，不止一关，会创建多个场景，多个场景之间需要切换。首先创建一个新的场景，新场景的创建方法与上述方法相同。  
+    ![image](https://github.com/super-180/first/blob/master/Images/scene2.png)  
+    从一个场景到另一个场景之间需要满足某种条件，这里我们用对话框来实现。当角色走到房间的门前时，触发一个对话框，按“E”即可切换下一场景。  
+    首先创建一个对话框  
     
