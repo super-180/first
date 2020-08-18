@@ -185,4 +185,7 @@ my study
     ![image](https://github.com/super-180/first/blob/master/Images/scene2.png)  
     从一个场景到另一个场景之间需要满足某种条件，这里我们用对话框来实现。当角色走到房间的门前时，触发一个对话框，按“E”即可切换下一场景。  
     首先创建一个对话框  
+    ![image](https://github.com/super-180/first/blob/master/Images/对话框.png)  
+    角色碰到门时才会触发对话框，需要在门上添加Collider，并勾选上Is Trigger  
+    ![iamge](https://github.com/super-180/first/blob/master/Images/门.png)  
     
