@@ -173,4 +173,5 @@ my study
         ![image](https://github.com/super-180/first/blob/master/Images/play.png)  
         ![iamge](https://github.com/super-180/first/blob/master/Images/quit.png)  
    暂停菜单：  
+         在游戏中，可通过暂停菜单暂停游戏。点击暂停键后会出现声音的调节和返回游戏键。先创建一个暂停按钮，点击按钮后会出现菜单，菜单上有调节声音的滑动条和返回游戏按钮。  
          
