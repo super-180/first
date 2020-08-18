@@ -179,4 +179,7 @@ my study
          之后在Menu脚本中创建各自的函数，并在各自的按钮中添加函数  
          ![image](https://github.com/super-180/first/blob/master/Images/pause%20and%20resume.png)  
          创建完滑动条后，创建一个Audio Mixer，并在Menu脚本中创建函数，并在滑动条中添加该函数。  
-         
+         ![image](https://github.com/super-180/first/blob/master/Images/setVolume.png)  
+11. 场景切换  
+    在游戏中，不止一关，会创建多个场景，多个场景之间需要切换。首先创建一个新的场景，新场景的创建方法与上述方法相同。  
+    
