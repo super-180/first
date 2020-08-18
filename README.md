@@ -188,4 +188,6 @@ my study
     ![image](https://github.com/super-180/first/blob/master/Images/对话框.png)  
     角色碰到门时才会触发对话框，需要在门上添加Collider，并勾选上Is Trigger  
     ![iamge](https://github.com/super-180/first/blob/master/Images/门.png)  
+    创建对话框脚本，当角色接触门时，对话框弹出，离开时则隐藏  
+    ![image](https://github.com/super-180/first/blob/master/Images/对话框脚本.png)  
     
