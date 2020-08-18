@@ -178,4 +178,5 @@ my study
          ![image](https://github.com/super-180/first/blob/master/Images/pause%20menu.png)  
          之后在Menu脚本中创建各自的函数，并在各自的按钮中添加函数  
          ![image](https://github.com/super-180/first/blob/master/Images/pause%20and%20resume.png)  
+         创建完滑动条后，创建一个Audio Mixer，并在Menu脚本中创建函数，并在滑动条中添加该函数。  
          
