@@ -190,4 +190,5 @@ my study
     ![iamge](https://github.com/super-180/first/blob/master/Images/门.png)  
     创建对话框脚本，当角色接触门时，对话框弹出，离开时则隐藏  
     ![image](https://github.com/super-180/first/blob/master/Images/对话框脚本.png)  
+    之后在门上添加一个EnterHouse脚本，当按下“E”键时，切换到下一场景  
     
