@@ -192,4 +192,7 @@ my study
     ![image](https://github.com/super-180/first/blob/master/Images/对话框脚本.png)  
     之后在门上添加一个EnterHouse脚本，当按下“E”键时，切换到下一场景  
     ![image](https://github.com/super-180/first/blob/master/Images/enterhouse.png)  
+12. 2D光效  
+    为了使场景更真实，需要添加光效。  
+    首先场景要暗下去，为场景添加Default-Diffuse材质，这样场景就变暗了  
     
