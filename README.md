@@ -195,4 +195,7 @@ my study
 12. 2D光效  
     为了使场景更真实，需要添加光效。  
     首先场景要暗下去，为场景添加Default-Diffuse材质，这样场景就变暗了  
+    ![image](https://github.com/super-180/first/blob/master/Images/diffuse.png)  
+    ![image](https://github.com/super-180/first/blob/master/Images/变暗的场景.png)  
+    场景变暗后，为需要的地方添加光效，就可以使部分场景变亮  
     
