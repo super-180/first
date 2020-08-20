@@ -198,4 +198,7 @@ my study
     ![image](https://github.com/super-180/first/blob/master/Images/diffuse.png)  
     ![image](https://github.com/super-180/first/blob/master/Images/变暗的场景.png)  
     场景变暗后，为需要的地方添加光效，就可以使部分场景变亮  
+    ![image](https://github.com/super-180/first/blob/master/Images/scene3.png)  
+    如果场景过暗，可以添加一个Directional Light，使场景变亮一些  
+    ![image](https://github.com/super-180/first/blob/master/Images/scene2.png)  
     
