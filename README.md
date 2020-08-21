@@ -208,5 +208,8 @@ my study
    2. 图层  
       在2D游戏中，创建图层是为了更好呈现场景。如果所有场景均是同一图层，那么有些需要突出的场景可能被遮挡。创建多个图层，可以使场景有层次地表现出来。  
    3. 按钮  
-      Unity中，有一些默认安排好的按键可以使用，如Jump  
-      
+      Unity中，有一些默认安排好的按键可以使用，如Jump，可以直接使用  
+      ![image](https://github.com/super-180/first/blob/master/Images/input.png)  
+      如果需要一些没有的按键，可以复制一个按键，再命名并改键，即可得到，如Crouch（下蹲）  
+      ![image](https://github.com/super-180/first/blob/master/Images/复制按键.png)  
+    
