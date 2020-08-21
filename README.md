@@ -202,3 +202,9 @@ my study
     如果场景过暗，可以添加一个Directional Light，使场景变亮一些  
     ![image](https://github.com/super-180/first/blob/master/Images/scene2.png)  
     
+## Sunny Land学习总结  
+   1. 动画  
+      在2D游戏中，为角色创建动画效果只需要将贴图依次放入Animation，角色就会拥有动画效果。如果有多个动画需要切换，要在Animator中为动画之间建立关系，满足某种条件后才能切换。  
+   2. 图层  
+      在2D游戏中，创建图层是为了更好呈现场景。如果所有场景均是同一图层，那么有些需要突出的场景可能被遮挡。创建多个图层，可以使场景有层次地表现出来。  
+   
