@@ -216,4 +216,8 @@ my study
   
 ## Unity小游戏:Speed Down  
    1. 导入资源  
-   
+      在Unity asset store上下载该游戏所需要的资源。  
+      ![image](https://github.com/super-180/first/blob/master/Images/speed%20down资源.png)  
+   2. 场景搭建  
+      首先搭建一个场景  
+      
