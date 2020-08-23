@@ -220,4 +220,9 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/speed%20down资源.png)  
    2. 场景搭建  
       首先搭建一个场景  
+      ![image](https://github.com/super-180/first/blob/master/Images/speed%20down背景.png)  
+      为了使背景产生移动效果，需要创建脚本  
+      ![image](https://github.com/super-180/first/blob/master/Images/背景移动.png)  
+      效果图如图所示  
+      ![image](https://github.com/super-180/first/blob/master/Images/bg移动.gif)  
       
