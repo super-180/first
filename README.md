@@ -201,6 +201,7 @@ my study
     ![image](https://github.com/super-180/first/blob/master/Images/scene3.png)  
     如果场景过暗，可以添加一个Directional Light，使场景变亮一些  
     ![image](https://github.com/super-180/first/blob/master/Images/scene2.png)  
+    该项目目录：Projects/Sunny Land。  
     
 ## Sunny Land学习总结  
    1. 动画  
@@ -212,4 +213,7 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/input.png)  
       如果需要一些没有的按键，可以复制一个按键，再命名并改键，即可得到，如Crouch（下蹲）  
       ![image](https://github.com/super-180/first/blob/master/Images/复制按键.png)  
-    
+  
+## Unity小游戏:Speed Down  
+   1. 导入资源  
+   
