@@ -228,4 +228,7 @@ my study
       迫使角色不停向下移动，要在顶部设置尖刺，角色一碰就死。在素材中找到尖刺后，添加Polygon Colider 2D,Rigidbody 2D和Composite Colider 2D，其中将Rigidbody的Body Type改为Static。将尖刺的Tag改为Spike。  
       ![image](https://github.com/super-180/first/blob/master/Images/刺.png)  
       这样游戏场景就搭建完成了。  
+   3. 制作平台  
+      在角色下落过程中，需要平台落脚，因此需要制作一些平台。  
+      Basic Platform：  
       
