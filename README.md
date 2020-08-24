@@ -268,4 +268,11 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/sd_fall.png)  
       死亡：  
       ![image](https://github.com/super-180/first/blob/master/Images/sd_dead.gif)  
+      之后为动画添加关系  
+      ![image](https://github.com/super-180/first/blob/master/Images/sd_动画关系.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/sd_动画参数.png)  
+      为角色添加角色脚本  
+      ![image](https://github.com/super-180/first/blob/master/Images/sd_player-1.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/sd_player-2.png)  
       
+
