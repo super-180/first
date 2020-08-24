@@ -244,4 +244,8 @@ my study
       这个一个旋转平台，当角色站在平台的边缘时，平台会旋转  
       ![image](https://github.com/super-180/first/blob/master/Images/Roate%20Platform.png)  
       ![image](https://github.com/super-180/first/blob/master/Images/roate%20am.gif)  
+      为了使平台有旋转效果，添加Hinge Joint 2D组件  
+      ![image](https://github.com/super-180/first/blob/master/Images/roate_hinge.gif)  
+      Spiked Ball：  
+      这是一个摆球，如果角色不小心触碰，就会死亡  
       
