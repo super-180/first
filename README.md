@@ -252,4 +252,8 @@ my study
       为了使球和摆点相连接，需要给球添加Distance Joint 2D组件，即可连接两个物体。可是在屏幕显示时，没有线连接两个物体，看起来不真实，要在父物体上添加Line Renderer组件，并创建脚本，即可显示连接物体的线。  
       ![image](https://github.com/super-180/first/blob/master/Images/Line%20Renderer脚本.png)  
       ![image](https://github.com/super-180/first/blob/master/Images/spiked%20ball%20am.gif)  
+      为了使平台能够自动向上移动，创建脚本  
+      ![image](https://github.com/super-180/first/blob/master/Images/platform脚本.png)  
+      在背景上方设置一个空物体TopLine，当平台接触到该物体时，平台会自动摧毁  
+      ![image](https://github.com/super-180/first/blob/master/Images/topline.png)  
       
