@@ -256,4 +256,6 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/platform脚本.png)  
       在背景上方设置一个空物体TopLine，当平台接触到该物体时，平台会自动摧毁  
       ![image](https://github.com/super-180/first/blob/master/Images/topline.png)  
+   4. 角色  
+      在素材中找到角色的贴图，并创建好  
       
