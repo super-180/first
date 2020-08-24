@@ -235,9 +235,13 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/basic%20platform.png)  
       ![image](https://github.com/super-180/first/blob/master/Images/basic%20am.gif)  
       Fan Platform：  
-      这是一个弹跳平台，当角色落在上面时，角色会突然弹起，并且平台会旋转  
+      这是一个弹跳平台，当角色落在上面时，角色会突然弹起，并且平台的螺旋桨会旋转  
       ![image](https://github.com/super-180/first/blob/master/Images/Fan%20Platform.png)  
       ![image](https://github.com/super-180/first/blob/master/Images/fan%20am.gif)  
       旋转代码  
       ![image](https://github.com/super-180/first/blob/master/Images/fan代码.png)  
+      Roate Platform：  
+      这个一个旋转平台，当角色站在平台的边缘时，平台会旋转  
+      ![image](https://github.com/super-180/first/blob/master/Images/Roate%20Platform.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/roate%20am.gif)  
       
