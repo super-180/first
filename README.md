@@ -231,4 +231,11 @@ my study
    3. 制作平台  
       在角色下落过程中，需要平台落脚，因此需要制作一些平台。  
       Basic Platform：  
+      这是一个基本的平台，没有任何变化  
+      ![image](https://github.com/super-180/first/blob/master/Images/basic%20platform.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/basic%20am.gif)  
+      Fan Platform：  
+      这是一个弹跳平台，当角色落在上面时，角色会突然弹起，并且平台会旋转  
+      ![image](https://github.com/super-180/first/blob/master/Images/Fan%20Platform.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/fan%20am.gif)  
       
