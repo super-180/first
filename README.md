@@ -276,5 +276,10 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/sd_player-2.png)  
    5. 随机生成平台  
       在游戏中，产生的平台要是随机的，这是需要创建代码实现  
-      
+      先创建一个空物体StartLine，并添加Box Collider 2D  
+      ![image](https://github.com/super-180/first/blob/master/Images/平台起点.png)  
+      创建脚本，从StartLine的范围中随机生成平台  
+      ![image](https://github.com/super-180/first/blob/master/Images/随机生成平台-1.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/随机生成平台-2.png)
+
 
