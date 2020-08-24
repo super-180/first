@@ -238,4 +238,6 @@ my study
       这是一个弹跳平台，当角色落在上面时，角色会突然弹起，并且平台会旋转  
       ![image](https://github.com/super-180/first/blob/master/Images/Fan%20Platform.png)  
       ![image](https://github.com/super-180/first/blob/master/Images/fan%20am.gif)  
+      旋转代码  
+      ![image](https://github.com/super-180/first/blob/master/Images/fan代码.png)  
       
