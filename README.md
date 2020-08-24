@@ -248,4 +248,6 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/roate_hinge.gif)  
       Spiked Ball：  
       这是一个摆球，如果角色不小心触碰，就会死亡  
+      ![image](https://github.com/super-180/first/blob/master/Images/Spiked%20Ball.png)  
+      为了使球和摆点相连接，需要给球添加Distance Joint 2D组件，即可连接两个物体。可是在屏幕显示时，没有线连接两个物体，看起来不真实，要在父物体上添加Line Renderer组件，并创建脚本。  
       
