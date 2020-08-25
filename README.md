@@ -281,5 +281,7 @@ my study
       创建脚本，从StartLine的范围中随机生成平台  
       ![image](https://github.com/super-180/first/blob/master/Images/随机生成平台-1.png)  
       ![image](https://github.com/super-180/first/blob/master/Images/随机生成平台-2.png)
-
+   6. UI  
+      在该游戏中，需要记录角色生存的时间，创建一个Text来记录时间  
+      
 
