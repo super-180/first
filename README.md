@@ -283,5 +283,11 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/随机生成平台-2.png)
    6. UI  
       在该游戏中，需要记录角色生存的时间，创建一个Text来记录时间  
+      ![image](https://github.com/super-180/first/blob/master/Images/time.png)  
+      再创建一个结束面板，在上面还要有两个按钮：Play Again和Quit。  
+      ![image](https://github.com/super-180/first/blob/master/Images/game%20over.png)  
+      创建GamaManager脚本实现UI功能  
+      ![image](https://github.com/super-180/first/blob/master/Images/game%20manager代码-1.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/game%20manager代码-2.png)  
       
 
