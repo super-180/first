@@ -293,4 +293,5 @@ my study
 ## Robbie Swifthand and the Orb of Mysteries  
    1. 导入素材  
       把需要的素材导入Unity，效果如下图所示  
+      ![image](https://github.com/super-180/first/blob/master/Images/Robbie素材.png)  
       
