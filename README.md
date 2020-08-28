@@ -299,4 +299,6 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/robbie_bg.png)  
       ![image](https://github.com/super-180/first/blob/master/Images/robbie_shadow.png)  
       ![image](https://github.com/super-180/first/blob/master/Images/robbie_platform.png)  
+      创建多个tile map用于创建场景  
+      ![image](https://github.com/super-180/first/blob/master/Images/robbie_tile%20map.png)  
       
