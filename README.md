@@ -301,4 +301,6 @@ my study
       ![image](https://github.com/super-180/first/blob/master/Images/robbie_platform.png)  
       创建多个tile map用于创建场景  
       ![image](https://github.com/super-180/first/blob/master/Images/robbie_tile%20map.png)  
+      创建多个sorting layer，使场景有层次  
+      ![image](https://github.com/super-180/first/blob/master/Images/sorting%20layer.png)  
       
