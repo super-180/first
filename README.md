@@ -295,4 +295,8 @@ my study
       把需要的素材导入Unity，效果如下图所示  
       ![image](https://github.com/super-180/first/blob/master/Images/Robbie素材.png)  
    2. 场景  
-      首先创建多个Tile Palette，将场景所需的素材拖入其中
+      首先创建多个Tile Palette，将场景所需的素材拖入其中  
+      ![image](https://github.com/super-180/first/blob/master/Images/robbie_bg.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/robbie_shadow.png)  
+      ![image](https://github.com/super-180/first/blob/master/Images/robbie_platform.png)  
+      
