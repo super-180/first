@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        function Click() {
+            if (document.getElementById("txtUserName").checkValidity() &&
+                document.getElementById("txtEmail").checkValidity() &&
+                document.getElementById("txtPassword").checkValidity()) {
+                alert('注册成功！')
+            }
+            else {
+                alert('注册失败！')
+            }
+        }
+    </script>
+    <fieldset>
+    <legend>校园网注册页面</legend>
+    <table>
+        <tr>
+            <td>
+                用户名:
+            </td>
+            <td>
+                <input type="text" id="txtUserName" autofocus="true" required="true" pattern="^[0-9A-Za-z]{6,}$">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                电子邮箱:
+            </td>
+            <td>
+                <input type="email" id="txtEmail" required="true">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                学号:
+            </td> 
+            <td>
+                <input type="password" id="txtPassword" required="true" pattern="^[0-9]{6,24}$">
+            </td>
+        </tr>
+    </table>
+        <br>
+        <input type="submit" value="注册" onclick="Click()">
+    </fieldset>
+
+</body>
+</html>
