@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        /* 中级：网站布局，水平导航栏，表单；高级：按钮，阴影，工具提示 */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .header {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: grey;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            border: 2px solid red;
+            border-radius: 4px;
+        }
+
+        .button {
+            background-color: green;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            border-bottom: 1px dotted black;
+        }
+
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+        }
+
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+        }
+
+        h3 {
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>图书管理系统</h1>
+    </div>
+
+    <div class="topnav">
+        <a href="#">图书列表</a>
+        <a href="#">作者列表</a>
+        <a href="#">出版社列表</a>
+        <a href="#">更多操作</a>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <h2>用户登录</h2>
+            <form>
+                <label for="fname">用户名</label>
+                <input type="text" id="fname" name="fname">
+                <label for="lname">密码</label>
+                <input type="text" id="lname" name="lname">
+            </form>
+            <button class="button">登录</button>
+        </div>
+
+        <div class="column">
+            <h2>常见图书种类</h2>
+            <div class="tooltip">
+                数学
+                <span class="tooltiptext">
+                    高等数学
+                </span>
+            </div>
+            <div class="tooltip">
+                物理
+                <span class="tooltiptext">
+                    大学物理
+                </span>
+            </div>
+            <div class="tooltip">
+                计算机
+                <span class="tooltiptext">
+                    数据结构
+                </span>
+            </div>
+        </div>
+
+        <div class="column">
+            <h2>联系方式</h2>
+            <h2>如果网页有错误，请选择以下任意一种方式联系本站!</h2>
+            <h3>电话:1111-1111-1111</h3>
+            <h3>邮箱:22222222@qq.com</h3>
+        </div>
+    </div>
+</body>
+</html>
