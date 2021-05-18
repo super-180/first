@@ -1,0 +1,314 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*设置背景图片*/
+body{
+    background:url(image/back2.jpg) no-repeat;
+    background-size:cover;/*自适应*/
+}
+
+/*设置横幅的宽高背景*/
+.banner{
+    width:720px;/*宽*/
+    height:250px;/*高*/
+    background:url(image/bg.jpeg) no-repeat;/*背景图片*/
+    margin:80px;/*外边距*/
+    opacity:0.8;/*透明度*/
+    box-shadow:10px 15px 15px 1px black;/*阴影*/
+    position:relative;/*让子元素使用定位相对于其父元素*/
+    float:left;
+}
+
+/*设置横幅的li样式*/
+.banner ul li{
+    list-style:none;/*取消列表默认样式*/
+    display:inline-block;/*行内块状元素*/
+    position:absolute;/*使用绝对定位*/
+}
+
+/*操作图片*/
+.banner ul li img{
+    border-radius:50%;/*将图片棱角变圆*/
+    cursor:pointer;/*鼠标变手势*/
+}
+
+/*使用类选择器改变图片位置*/
+.m1{
+    top:140px;
+    left:160px;
+}
+.m2{
+    top:67px;
+    left:308px;
+}
+
+/*图片旋转的动画*/
+@keyframes img_rotate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+/*动画执行的时间、次数*/
+.banner .img_animation{
+    animation:img_rotate 2s infinite linear;
+}
+
+/*播放器的样式*/
+.music {
+    width: 700px;
+    height: 120px;
+    background: black;
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    opacity: 0.8;
+    box-shadow: 10px 15px 15px 1px black; /*阴影*/
+}
+
+/*播放器上图片位置*/
+.music .m_img{
+    margin-top:15px;
+    margin-left:10px;
+    float:left;
+}
+
+/*播放器文本*/
+.music .m_text{
+    float:left;
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    margin-top:50px;
+    margin-left:20px;
+}
+
+/*修改a标签 设置宽高及背景图片*/
+.music .m_btn a {
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: url(image/btn.png);
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+/*使a标签一起移动*/
+.musci .m_btn{
+    float:left;
+    position:absolute;
+    left:320px;
+}
+
+/*改变上一首的图片*/
+.music .m_btn .m_prev{
+    background-position:0 -143px;
+}
+
+.music .m_btn .m_prev:hover{
+    background-position:-36px -143px;
+}
+
+/*改变播放的图片，播放图片过大，修改大小*/
+.music .m_btn .m_play{
+    margin-top:45px;
+    width:60px;
+    height:55px;
+    background-position:0 -6px;
+}
+
+.music .m_btn .m_play:hover{
+    background-position:-60px -6px;
+}
+
+/*暂停按钮*/
+.music .m_btn .m_pause {
+    margin-top: 45px;
+    width: 60px;
+    height: 55px;
+    background-position: 0 -65px;
+}
+
+.music .m_btn .m_pause:hover {
+    background-position:-60px -65px;
+}
+
+/*改变下一首的图片*/
+.music .m_btn .m_next{
+    background-position:-144px -143px;
+}
+
+.music .m_btn .m_next:hover{
+    background-position:-180px -143px;
+}
+
+/*喜爱功能*/
+.music .m_like{
+    float:left;
+}
+
+.music .m_like .m_ilike{
+    background:url(image/qq.png);
+    background-position: 0 -96px;
+    display:none;
+    width:24px;
+    height:21px;
+    margin-left:35px;
+    margin-top:55px;
+}
+
+
+/*播放器最右边关闭样式*/
+.music .m_close{
+    float:right;
+    background:url(image/sprite.png) no-repeat;
+    background-position:0 -755px;
+    height:120px;
+    width:60px;
+    display:block;
+    margin-top:8px;
+    cursor:pointer;
+}
+
+.music .m_open{
+    background-position:0 -1005px;
+}
+
+/*登录按钮区域*/
+.login_btn {
+    width:300px;
+    height: 250px;
+    float: right;
+}
+
+/*登录按钮样式*/
+.login_btn .loginBtn {
+    display: block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #169AF3;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-left:100px;
+    float:left;
+}
+
+/*退出按钮样式*/
+.login_btn .loginOut{
+    display: block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #169AF3;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+    margin-left:100px;
+    float:left;
+}
+
+/*用户名区域*/
+.login_btn .ID{
+    width: 150px;
+    height: 30px;
+    background: red;
+    margin-left:150px;
+}
+
+.login_btn .ID .ID_text{
+    line-height: 30px;
+}
+
+
+/*登录界面*/
+
+/* 登陆框主体 */
+.login {
+    position: absolute;
+    width: 512px;
+    height: 284px;
+    z-index: 9999;
+    display: none;
+    background-color: white;
+    /* 这里要注意绝对定位的盒子怎么在屏幕显示居中 */
+    left: 50%;
+    margin-left: -256px;
+    margin-top: 142px;
+    border: 1px solid gray;
+}
+
+/* 登陆框标题 */
+.login-title {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    cursor: move;
+}
+
+.login-title span a {
+    text-decoration: none;
+    border: 1px solid gray;
+    font-size: 12px;
+    color: black;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+/* 登陆表单 */
+.login-input {
+    margin: 20px 0px 30px 0px;
+}
+
+.login-input label {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    width: 90px;
+    padding-left: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.login-input input.list-input {
+    height: 35px;
+    line-height: 35px;
+    width: 350px;
+    text-indent: 5px;
+}
+
+/* 登陆框登陆按钮 */
+.loginSubmit {
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid gray;
+    background-color: white;
+    margin-left: 120px;
+}
+
+/* 遮盖层 */
+.bg {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: fixed;
+    opacity: 0.3;
+    display: none;
+}

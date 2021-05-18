@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>音乐播放器</title>
+    <link href="music.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="music.js"></script>
+</head>
+<body>
+
+    <!--横幅-->
+    <div class="banner">
+        <ul>
+            <li class="m1" datasrc="music/Believer.mp3" title="Believer - Imagine Dragons">
+                <img src="image/1.jpg" width="90" style="background-repeat:no-repeat;" />
+            </li>
+            <li class="m2" datasrc="music/Natural.mp3" title="Natural - Imagine Dragons">
+                <img src="image/2.jpg" width="119" style="background-repeat:no-repeat;" />
+            </li>
+        </ul>
+    </div>
+
+    <!--登录、退出按钮-->
+    <div class="login_btn">
+        <a href="#" class="loginBtn">登录</a>
+        <div class="ID">
+             <div class="ID_text">用户名:</div>
+        </div>
+    </div>
+
+
+    <!--登录界面-->
+
+    <div class="login">
+        <!--登录框标题-->
+        <div class="login-title">
+            登录界面
+            <span><a class="closeBtn" href="#">关闭</a></span>
+        </div>
+        <!--登录框表单-->
+        <div class="login-from">
+            <div class="login-input">
+                <label>登录名：</label>
+                <input type="text" placeholder="请输入登录名" class="list-input" id="input-one" name="one"/>
+            </div>
+            <div class="login-input">
+                <label>密&nbsp;&nbsp;&nbsp;码：</label>
+                <input type="password" placeholder="请输入密码" class="list-input" id="input-two" name="two"/>
+            </div>
+        </div>
+        <!-- 登陆框登陆按钮 -->
+        <input type="submit" id="loginSubmit" value="登陆" class="loginSubmit" />
+    </div>
+    <!-- 遮盖层 -->
+    <div id="bg" class="bg">sada</div>
+
+    <!--播放器-->
+    <div class="music">
+        <div class="m_img">
+            <img src="image/1.jpg" width="90" />
+        </div>
+        <div class="m_text">Believer - Imagine Dragons</div>
+        <div class="m_btn">
+            <a href="#" class="m_prev" title="上一首"></a>
+            <a href="#" class="m_play" title="播放"></a>
+            <a href="#" class="m_next" title="下一首"></a>
+        </div>
+        <div class="m_like">
+            <a href="#" class="m_ilike" title="喜爱"></a>
+        </div>
+        <div class="m_close"></div>
+        <audio src="music/Believer.mp3" class="m_mp3"></audio>
+    </div>
+</body>
+</html>
